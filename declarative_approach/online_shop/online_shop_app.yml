@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/shubhamchav/ArgoCD.git    # Replace it with your forked repo
-    targetRevision: main
+    targetRevision: master
     path: declarative_approach/online_shop
   destination:
     server: https://172.31.12.129:33893   # Replace with your Cluster Url, To get run: `argocd cluster list`
